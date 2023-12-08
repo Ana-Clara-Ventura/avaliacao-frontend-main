@@ -1,0 +1,55 @@
+:root {
+    --cor1: #cf9df0;
+    --cor2: #ffffff;
+    --cor3: #dbb6f4;
+    --cor4: #e7cef8;
+    --cor5: #f3e7fb;
+}
+
+body {
+    background-color: var(--cor2);
+    color: var(--cor3);
+}
+
+.div-cadastro {
+    background-color: var(--cor1);
+    width: 80px;
+    border-radius: 45%;
+}
+
+.carousel {
+    background-color: var(--cor1);
+    width: 450px;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+.custom-button {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor2);
+    color: var(--cor2);
+    border-radius: 70px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-esquerda {
+    width: 30%;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    border-radius: 10px;
+}
+
+.main-direita {
+    width: 70%;
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
